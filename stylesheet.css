@@ -189,11 +189,16 @@ footer {
 }
 
 img {
+  margin-top: 1vw;
   width: 30%;
+  border: 2px solid #555;}
+
+.photos {
+  max-width: 84vw;
+  text-align: center;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 10px;
-  border: 2px solid #555;
+  row-gap: 1vw;
+  
   ;}
