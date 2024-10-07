@@ -66,7 +66,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 1em;}
 
@@ -189,7 +189,11 @@ footer {
 }
 
 img {
-  margin:2vw;
-  width: 40%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
   border: 2px solid #555;
   ;}
