@@ -55,18 +55,18 @@ h1 a {
     justify-content: space-around;
     color: #000000;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 nav a {text-decoration:none;
-    color: #000000;}
+    color: #ffffff;}
 
 nav {
     font-weight:600;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 1em;}
 
@@ -108,6 +108,17 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-around;}
+
+.videoembed {
+  margin-top: 2vw;
+  max-width: 84vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 1vw;
+
+}
 
 @media (max-width: 480px) {h1 a {font-size: 200%;}nav {font-size: 200%;}}
 
@@ -184,11 +195,15 @@ footer {
 #commuter {
   background:#80276C;
 }
+  #bus {
+    background:#FFC72C;
+}
 #amtrak {
   background:#005983;
 }
 
 img {
+  border-radius: 10%;
   margin-top: 1vw;
   width: 30%;
   border: 2px solid #555;}
