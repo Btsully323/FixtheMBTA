@@ -71,6 +71,7 @@ nav {
     margin-top: 1em;}
 
 header {
+border-top: solid;
 border-bottom: solid;
 padding: 1em;
 background-color: rgb(255, 255, 255);}
@@ -203,9 +204,8 @@ footer {
 }
 
 img {
-  border-radius: 10%;
+  border-radius: 5%;
   margin-top: 1vw;
-  width: 30%;
   border: 2px solid #555;}
 
 .photos {
@@ -214,6 +214,9 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 1vw;
-  
-  ;}
+  row-gap: 1vw;}
+
+.photoscenter {
+  display: block;
+  max-width: 84vw;
+  text-align: center;}
