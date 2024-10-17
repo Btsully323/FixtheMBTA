@@ -220,3 +220,39 @@ img {
   display: block;
   max-width: 84vw;
   text-align: center;}
+
+.MContainer {
+  display: flex;
+  justify-content: space-around;}
+
+.Container {
+  max-width: 60vw;
+  margin-top: 10vw;}
+
+.Container2 {
+  max-width: 60vw;
+  margin-top:12vw;}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: rgba(220, 228, 230, 0.418);
+    border-left: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-left: 2vw;
+    margin-top: 10vw;
+    margin-bottom: 2em;
+    float: right;
+    width: 20%;
+    height: 100%;
+  }
+
+  hr {
+    margin-top: 2em;
+    margin-bottom: 1em;}
