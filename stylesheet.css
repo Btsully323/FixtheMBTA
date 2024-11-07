@@ -96,7 +96,6 @@ h3 {font-size: 2vw;
 
 p {margin-top: 2vw;
     font-size: 1.5vw;
-    max-width: 84vw;
     text-indent: 5%;
 }
 
@@ -112,7 +111,7 @@ footer {
 
 .videoembed {
   margin-top: 2vw;
-  max-width: 84vw;
+  max-width: 95vw;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -130,7 +129,7 @@ footer {
   font-weight:bold;
   display:flex;
   flex-direction:column;
-  width:95vw;
+  width:75vw;
   margin:3rem auto;
   border:black .15rem solid;
 }
@@ -220,3 +219,49 @@ img {
   display: block;
   max-width: 84vw;
   text-align: center;}
+
+.MContainer {
+  display: flex;
+  justify-content: space-around;}
+
+.Container {
+  margin-left:4vw;
+  margin-right:2vw;
+  max-width: 95vw;
+  margin-top: 8vw;}
+
+.Container2 {
+  margin-left:5vw;
+  margin-right:5vw;
+  max-width: 95vw;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar {
+    margin-right:4vw;
+    background-color: rgba(220, 228, 230, 0.418);
+    border-left: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 8vw;
+    margin-bottom: 2em;
+    float: right;
+    width: 20%;
+    height: 100%;
+  }
+
+  .Containersign {
+    margin-top: 12vw;
+
+  }
+  hr {
+    margin-top: 2em;
+    margin-bottom: 1em;}
