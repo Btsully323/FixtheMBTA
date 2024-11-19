@@ -265,3 +265,18 @@ header {
   hr {
     margin-top: 2em;
     margin-bottom: 1em;}
+
+  .about2 {
+    font-size: 4vw;
+    margin-left: 4vw;
+    margin-top: 12vw;
+    max-width: 84vw;
+  }
+
+  form {
+    margin-top: 2vw;
+    margin-left: 4vw;
+    font-size: 1.5vw;
+    text-indent: 5%;}
+
+  .resizedTextbox {width: 10em; height: 3em}
