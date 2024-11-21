@@ -33,20 +33,43 @@
         <div class="MContainer">
         <div class="Container">
             <div>
-                <select id="MBTALines"></select>
+                <!-- <div>
+                    <select class="MBTALines" id="MBTALines"></select>
+                </div>
+    
+            <script>
+                const Lines = ["Red Line", "Orange Line", "Green Line", "Blue Line"];
+                const select = document.getElementById("MBTALines");
+                Lines.forEach ((type) => {
+                    option = document.createElement("option")
+                    option.value = type;
+                    option.text = type;
+                    select.appendChild(option);
+                }) -->
 
-            </div>
+            <script> 
+            
+            const Lines = [{
+                name: "Red Line",
+                type: "Heavy Rail",
+                stations: 22,}, 
+                
+                {name: "Blue Line",
+                type: "Heavy Rail",
+                stations: 12,}, 
+                
+                {name: "Orange Line",
+                type: "Heavy Rail",
+                stations: 20,}, 
+                
+                {name: "Green Line",
+                type: "Light Rail",
+                stations: 70,}]
 
-        <script>
-            const Lines = ["Red Line", "Orange Line", "Green Line", "Blue Line"];
-            const select = document.getElementById("MBTALines");
-            Lines.forEach ((type) => {
-                Option = document .create
+                console.log()
 
+            </script>
 
-
-            })
-    </script>
             <h2>Boston’s Public Transportation needs help.</h2>
             <p>Slow zones, track shutdowns, shuttlebuses, and delays. Those are all words that describe the current state of the Massachusetts Bay Transportation Authority, otherwise known as the MBTA. Founded in 1897 as “America’s First Subway,” the MBTA has moved people around the city of Boston for well over 120 years. However, in the modern age the T has fallen into a shadow of its former self. Cities around the globe exceed the MBTA’s community reach, time and consistency. Even in America, places such as New York’s MTA, Chicago’s CTA, and DC’s Metro are more reliable and speedier than Boston’s transit system. There are many different reasons why the T has fallen into such a pitiful state such as, but certainly not limited to: Poor funding from the state of Massachusetts, Corrupt and poor management in the past, and a general lack of care for the system by the people who control it.</p>
             <div class="photos">
