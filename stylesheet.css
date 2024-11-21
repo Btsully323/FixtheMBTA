@@ -265,3 +265,8 @@ header {
   hr {
     margin-top: 2em;
     margin-bottom: 1em;}
+
+    tbody {
+    padding:.5em;
+    border: 1px solid;
+    }
