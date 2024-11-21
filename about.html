@@ -26,6 +26,21 @@
         </header>
 
         <main>
+            <div>
+                <select class="MBTALines" id="MBTALines"></select>
+            </div>
+
+        <script>
+            const Lines = ["Red Line", "Orange Line", "Green Line", "Blue Line"];
+            const select = document.getElementById("MBTALines");
+            Lines.forEach ((type) => {
+                option = document.createElement("option")
+                option.value = type;
+                option.text = type;
+                select.appendChild(option);
+            })
+            </script>
+            
             <h2>About this website</h2>
             <h3>Why was this site made?</h3>
             
