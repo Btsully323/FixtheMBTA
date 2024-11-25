@@ -24,6 +24,42 @@
                 <a href="BL.html" style="border-radius:100px;background-color:#003DA5; padding:.5rem 1rem ;">Blue Line</a>
                 <a href="links.html" style="border-radius:100px;background-color:#FFC72C; padding:.5rem 1rem;">Important Links</a>
                 <a href="about.html" style="border-radius:100px;background-color:#7C878E; padding:.5rem 1rem;">About</a>
+        
+                <div>
+                    <label>Dark mode
+                        <input type="checkbox" onchange="toggleDarkMode()">
+                    </label>           
+                
+                    <script>
+                        let isDarkMode = false;
+                        const header = document.querySelector('header');
+                        const stayHeader = document.querySelector('.nounderlinelink')
+
+
+                        const toggleDarkMode = () => {
+                            console.log("Using dark mode: " +isDarkMode);
+                            isDarkMode = !isDarkMode
+
+                            if (isDarkMode) {
+                                header.style["backgroundColor"] = "#131314";
+                                header.style["color"] = "white";
+                            } else {
+                                header.style["backgroundColor"] = "white";
+                                header.style["color"] = "#131314";
+
+                            }
+                        }
+                    </script>
+                
+                
+                
+                
+                </div>
+            
+                <script>
+
+                </script>
+            
             </div>
             </nav>
         </header>
