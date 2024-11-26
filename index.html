@@ -26,11 +26,11 @@
                 <a href="about.html" style="border-radius:100px;background-color:#7C878E; padding:.5rem 1rem;">About</a>
         
                 <div>
-                    <label>Dark mode
+                    <!-- <label>Dark mode
                         <input type="checkbox" onchange="toggleDarkMode()">
-                    </label>           
+                    </label>            -->
                 
-                    <script>
+                    <!-- <script>
                         let isDarkMode = false;
                         const header = document.querySelector('header');
                         const stayHeader = document.querySelector('.nounderlinelink')
@@ -49,7 +49,7 @@
 
                             }
                         }
-                    </script>
+                    </script>  -->
                 
                 
                 
@@ -97,6 +97,64 @@
             <hr>
         </div>
         </div>
+
+
+        <script> const line = [
+            {
+            name: "Red Line",
+            stations: "22",
+            type: "Heavy Rail",
+        } , {
+            name: "Orange Line",
+            stations: "20",
+            type: "Heavy Rail",
+        } , {
+            name: "Green Line",
+            stations: "70",
+            type: "Light Rail",
+        } , {
+            name: "Blue Line",
+            stations: "12",
+            type: "Heavy Rail",
+        }];
+     </script>
+     
+<div class="tablesign">
+     <table>
+        <thead id="interestingtable" class="interestingtable1">
+            <tr>
+                <td><b>NAME</b></td>
+                <td><b>STATIONS</b></td>
+                <td><b>TYPE</b></td>
+            </tr>
+        </thead>
+
+        <tbody class="interestingtable2">
+
+
+        </tbody>
+
+    </table>
+</div>
+     
+     
+     <script>
+     const writeTableRow = (table, name) => {
+            const newRow = table.insertRow();
+            
+            newRow.innerHTML = `<tr id=${name.name}>
+                <td>${name.name}</td>
+                <td>${name.stations}</td>
+                <td>${name.type}</td>
+            </tr>`
+        }
+        const tableBody = document.getElementsByTagName("tbody")[0];
+        writeTableRow (tableBody, line[0]);
+        
+
+                
+                </script>
+       
     </main>
 
 

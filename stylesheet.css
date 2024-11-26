@@ -282,3 +282,25 @@ header {
   .resizedTextbox {width: 10em; height: 3em}
 
   .formcenter {text-align:center;}
+
+  .interestingtable1 {
+    font-size:calc(3 * .7rem);
+    text-align: center;
+    color: #ffffff;
+    border: thin solid #000000;
+    background-color: #DA291C;
+  }
+  .interestingtable2 {
+    padding:0 .5rem;
+    font-size:calc(3 * .7rem);
+    text-align: center;
+    border: thin solid #000000;
+    background-color: #ffffff;}
+  .tablesign {
+    text-transform:uppercase;
+    padding:0 .5rem;
+    font-size: large;
+    display:flex;
+    flex-direction:column;
+    width:75vw;
+    margin:3rem auto;}
