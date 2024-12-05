@@ -99,6 +99,15 @@
         </div>
 
 
+        <div class="title">select a line for information! 
+            <select id="type" onchange="makeTable()">
+            <option value="all">All</option>
+            <option value="Light Rail">Light Rail</option>
+            <option value="Heavy Rail">Heavy Rail</option>
+            
+            </select>
+        </div>
+
         <script> const line = [
             {
             name: "Red Line",
@@ -117,8 +126,11 @@
             stations: "12",
             type: "Heavy Rail",
         }];
+
+        const select=document.getElementById("type")
      </script>
-     
+
+
 <div class="tablesign">
      <table>
         <thead id="interestingtable" class="interestingtable1">
@@ -146,13 +158,27 @@
                 <td>${name.name}</td>
                 <td>${name.stations}</td>
                 <td>${name.type}</td>
-            </tr>`
+            </tr>`;
         }
-        const tableBody = document.getElementsByTagName("tbody")[0];
-        writeTableRow (tableBody, line[0]);
-        
 
-                
+        const makeTable = () => {
+            const tableBody = document.getElementsByTagName("tbody")[0];
+            tableBody.innerHTML = "";
+
+            if (select.value =="all") {
+                line.forEach((r) => writeTableRow(tableBody, r))
+            } else {
+                line.filter((r) => r.type == select.value).forEach((r) => {writeTableRow(tableBody, r);
+                });
+
+            }
+
+
+        }
+
+        makeTable()
+
+
                 </script>
        
     </main>
