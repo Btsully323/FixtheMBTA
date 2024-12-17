@@ -94,6 +94,11 @@ h2 {font-size: 4vw;
 h3 {font-size: 2vw;
   margin-top: 1vw}
 
+.title {margin-top: 2vw;
+  font-size: 1.5vw;
+  text-indent: 5%;
+}
+
 p {margin-top: 2vw;
     font-size: 1.5vw;
     text-indent: 5%;
